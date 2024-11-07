@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #1d3557;
+    background-image: url("../images/forest-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+header{display: grid;
+       height: 100px;
+       grid-template-columns: 3fr 1fr;
+       padding: 1em;
+       font-family: 'Roboto', sans-serif;
+}
+#profile {
+   width: 150px;
+   height: auto;
+   justify-self: center;
+   position: relative;
+   border-radius: 25px;
+   top: 25px;
+   right: 25px;
+   
+}
+
+#content {
+    border-radius: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #6c584c;
+    box-shadow: 0px 0px 10px black;
+    
+  }
+main {
+    background-color: #c3dac2;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    line-height: 1.5em;
+  }
+
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+  }
